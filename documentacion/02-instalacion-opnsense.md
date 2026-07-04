@@ -111,4 +111,4 @@ En esta sección se registrarán las soluciones utilizadas.
 
 ## Resultado
 
-Pendiente hasta completar la instalación y las pruebas.  
+Pendiente hasta completar la instalación y las pruebas.
