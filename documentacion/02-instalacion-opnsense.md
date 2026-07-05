@@ -180,6 +180,7 @@ OPNsense inició correctamente desde el disco virtual y mostró las interfaces L
 
 ![Consola de OPNsense instalada](../imagenes/17-consola-opnsense-instalada.png)
 
+
 ## Configuración de la interfaz LAN
 
 ### 1. Menú principal de OPNsense
