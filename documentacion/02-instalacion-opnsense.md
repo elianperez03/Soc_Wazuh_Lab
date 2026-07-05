@@ -160,7 +160,7 @@ El instalador clonó el sistema y preparó el disco virtual de destino.
 
 Al finalizar la instalación se configuró una contraseña para la cuenta `root`. La contraseña no fue almacenada en este repositorio.
 
-![Configuración de la contraseña root](../imagenes/14-cambio-de-contrasena-opnsense.png)
+![Configuración de la contraseña root](../imagenes/14-cambio-de-password-opnsense.png)
 
 ### Reinicio del sistema
 
