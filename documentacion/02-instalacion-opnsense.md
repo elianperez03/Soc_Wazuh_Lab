@@ -183,73 +183,73 @@ OPNsense inició correctamente desde el disco virtual y mostró las interfaces L
 
 ## Configuración de la interfaz LAN
 
-### 1. Menú principal de OPNsense
+### 18. Menú principal de OPNsense
 
 ![Menú principal de la consola de OPNsense](../imágenes/18-opnsense-menu-principal-consola.png)
 
-### 2. Selección de la interfaz LAN
+### 19. Selección de la interfaz LAN
 
 ![Selección de la interfaz LAN](../imágenes/19-opnsense-seleccionar-interfaz-lan.png)
 
-### 3. Configuración de IPv4 en la LAN
+### 20. Configuración de IPv4 en la LAN
 
 ![Configuración IPv4 de la interfaz LAN](../imágenes/20-opnsense-configurar-ipv4-lan.png)
 
-### 4. Asignación de la dirección IP
+### 21. Asignación de la dirección IP
 
 ![Asignación de la dirección IP LAN](../imágenes/21-opnsense-asignar-direccion-ip-lan.png)
 
-### 5. Configuración de la máscara de red
+### 22. Configuración de la máscara de red
 
 ![Configuración de la máscara LAN](../imágenes/22-opnsense-configurar-mascara-lan.png)
 
-### 6. Configuración de IPv6
+### 23. Configuración de IPv6
 
 ![Configuración IPv6 de la LAN](../imágenes/23-opnsense-configurar-ipv6-lan.png)
 
 ## Configuración del servidor DHCP
 
-### 7. Habilitación del servidor DHCP
+### 24. Habilitación del servidor DHCP
 
 ![Habilitación del servidor DHCP](../imágenes/24-opnsense-habilitar-servidor-dhcp.png)
 
-### 8. Configuración del rango DHCP
+### 25. Configuración del rango DHCP
 
 ![Configuración del rango DHCP](../imágenes/25-opnsense-configurar-rango-dhcp.png)
 
 ## Acceso a la interfaz web
 
-### 9. Configuración de HTTPS y certificado
+### 26. Configuración de HTTPS y certificado
 
 ![Configuración HTTPS de OPNsense](../imágenes/26-opnsense-configurar-https-certificado.png)
 
-### 10. Configuración LAN completada
+### 27. Configuración LAN completada
 
 ![Configuración LAN completada](../imágenes/27-opnsense-configuracion-lan-completada.png)
 
-### 11. Inicio de sesión web
+### 28. Inicio de sesión web
 
 ![Inicio de sesión en OPNsense](../imágenes/28-opnsense-inicio-sesion-web.png)
 
-### 12. Asistente de configuración inicial
+### 29. Asistente de configuración inicial
 
 ![Asistente de configuración inicial](../imágenes/29-opnsense-asistente-configuracion-inicial.png)
 
 ## Configuración general
 
-### 13. Acceso a los ajustes generales
+### 30. Acceso a los ajustes generales
 
 ![Acceso a los ajustes generales](../imágenes/30-opnsense-acceder-ajustes-generales.png)
 
-### 14. Configuración de servidores DNS
+### 31. Configuración de servidores DNS
 
 ![Configuración de servidores DNS](../imágenes/31-opnsense-configurar-servidores-dns.png)
 
-### 15. Configuración general del sistema
+### 32. Configuración general del sistema
 
 ![Configuración general de OPNsense](../imágenes/32-opnsense-configuracion-general-sistema.png)
 
-### 16. Aplicación de los cambios
+### 33. Aplicación de los cambios
 
 ![Cambios generales aplicados](../imágenes/33-opnsense-cambios-generales-aplicados.png)
 
