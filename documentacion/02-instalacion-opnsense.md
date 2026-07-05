@@ -259,6 +259,66 @@ OPNsense inició correctamente desde el disco virtual y mostró las interfaces L
 
 ![Acceso a detección de intrusiones](../imagenes/34-opnsense-acceder-deteccion-intrusiones.png)
 
+
+## Actualización de OPNsense
+
+Antes de continuar con la configuración del IDS/IPS, se verificó el estado del sistema y se realizó una actualización completa de OPNsense.
+
+### Panel antes de la actualización
+
+Se comprobó la versión instalada, el estado de la puerta de enlace WAN y los servicios principales antes de iniciar la actualización.
+
+![Panel de OPNsense antes de actualizar](../imagenes/35-panel-opnsense-antes-de-actualizar.png)
+
+### Notas de la nueva versión
+
+OPNsense mostró las notas correspondientes a la versión `26.1.11`, incluyendo correcciones de seguridad, mejoras del sistema y cambios en diferentes componentes.
+
+![Notas de la versión OPNsense 26.1.11](../imagenes/36-notas-version-opnsense-26-1-11.png)
+
+### Creación de un snapshot
+
+Antes de instalar las actualizaciones se creó un snapshot de la máquina virtual para poder restaurar el sistema en caso de que ocurriera algún problema.
+
+![Snapshot antes de actualizar OPNsense](../imagenes/37-snapshot-antes-de-actualizar-opnsense.png)
+
+### Actualizaciones disponibles
+
+El sistema detectó múltiples paquetes pendientes de actualización. La actualización incluía componentes del sistema, librerías, servicios DNS y Suricata.
+
+![Lista de actualizaciones disponibles](../imagenes/38-lista-de-actualizaciones-disponibles.png)
+
+### Confirmación del reinicio
+
+OPNsense indicó que la actualización requería un reinicio del firewall para completar la instalación.
+
+![Confirmación de reinicio por actualización](../imagenes/39-confirmacion-de-reinicio-por-actualizacion.png)
+
+### Descarga e instalación
+
+Se inició la descarga e instalación automática de los paquetes disponibles.
+
+![Descarga e instalación de actualizaciones](../imagenes/40-descarga-e-instalacion-de-actualizaciones.png)
+
+### Reinicio del sistema
+
+Después de completar la instalación de los paquetes, OPNsense reinició automáticamente para aplicar la nueva versión.
+
+![Reinicio para finalizar actualización](../imagenes/41-reinicio-para-finalizar-actualizacion.png)
+
+### Inicio de sesión posterior
+
+Después del reinicio se accedió nuevamente a la interfaz web con la cuenta administrativa.
+
+![Inicio de sesión después de actualizar](../imagenes/42-inicio-de-sesion-despues-de-actualizar.png)
+
+### Verificación de la actualización
+
+La actualización se completó correctamente. En el panel de control se confirmó la nueva versión instalada:
+
+```text
+OPNsense 26.1.11_6
+
 ## Verificaciones
 
 - [ ] OPNsense inicia correctamente.
