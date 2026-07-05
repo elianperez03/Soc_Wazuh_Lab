@@ -255,7 +255,7 @@ OPNsense inició correctamente desde el disco virtual y mostró las interfaces L
 
 ## Preparación del IDS/IPS
 
-### 17. Acceso a detección de intrusiones
+### 34. Acceso a detección de intrusiones
 
 ![Acceso a detección de intrusiones](../imagenes/34-opnsense-acceder-deteccion-intrusiones.png)
 
