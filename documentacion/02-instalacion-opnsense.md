@@ -287,12 +287,9 @@ OPNsense inició correctamente desde el disco virtual y mostró las interfaces L
 ![Configuración de servidores DNS](../imagenes/31-opnsense-configurar-servidores-dns.png)
 
 
-### Configuración de servidores DNS
+### Aplicación de los cambios
 
-
-![Configuración general de OPNsense](../imagenes/32-opnsense-configuracion-general-sistema.png)
-
-
+![Cambios generales aplicados](../imagenes/32-opnsense-configuracion-general-sistema.png)
 
 ### Aplicación de los cambios
 
@@ -300,9 +297,7 @@ OPNsense inició correctamente desde el disco virtual y mostró las interfaces L
 ![Cambios generales aplicados](../imagenes/33-opnsense-cambios-generales-aplicados.png)
 
 
-## Preparación del IDS/IPS
-
-### Acceso a detección de intrusiones
+### Aplicación de los cambios
 
 
 ![Acceso a detección de intrusiones](../imagenes/34-opnsense-acceder-deteccion-intrusiones.png)
