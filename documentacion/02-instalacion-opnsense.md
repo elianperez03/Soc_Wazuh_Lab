@@ -62,6 +62,7 @@ El adaptador LAN fue conectado a la red virtual `VMnet2`, configurada como una r
 ```text
 Red interna: VMnet2
 Subred: 192.168.126.0/24
+```
 
 ## Evidencias
 
