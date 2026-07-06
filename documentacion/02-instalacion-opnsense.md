@@ -28,7 +28,7 @@ Posteriormente se instalará Suricata para proporcionar funciones de IDS/IPS.
 | Procesadores | 2 |
 | Memoria RAM | 4 GB |
 | Disco | 30 GB |
-| Adaptador 1 | NAT o Bridge — WAN |
+| Adaptador 1 | NAT — WAN |
 | Adaptador 2 | Red interna — LAN |
 
 ## Interfaces de red
