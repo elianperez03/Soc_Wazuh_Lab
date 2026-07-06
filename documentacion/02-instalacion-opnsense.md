@@ -72,12 +72,14 @@ A continuación se muestran las evidencias recopiladas durante la creación e in
 
 VMnet2 fue configurada como una red Host-only para funcionar como la red LAN interna del laboratorio. El servicio DHCP de VMware fue deshabilitado porque OPNsense administrará la asignación de direcciones IP.
 
+
 ![Configuración de VMnet2](../imagenes/01-configuracion-vmnet2.png)
 
 
 ### Compatibilidad de hardware
 
 Se utilizó la compatibilidad de hardware de VMware Workstation 17.5 o posterior.
+
 
 ![Compatibilidad de hardware](../imagenes/02-compatibilidad-hardware-opnsense.png)
 
@@ -86,12 +88,14 @@ Se utilizó la compatibilidad de hardware de VMware Workstation 17.5 o posterior
 
 Se seleccionó la imagen DVD ISO de OPNsense para iniciar la instalación.
 
+
 ![Selección de la ISO de OPNsense](../imagenes/03-seleccion-iso-opnsense.png)
 
 
 ### Configuración del procesador
 
 La máquina virtual fue configurada con un procesador virtual y dos núcleos.
+
 
 ![Configuración del procesador](../imagenes/04-configuracion-procesador-opnsense.png)
 
@@ -100,6 +104,7 @@ La máquina virtual fue configurada con un procesador virtual y dos núcleos.
 
 El primer adaptador utilizado para la conexión WAN fue configurado en modo NAT.
 
+
 ![Adaptador WAN en modo NAT](../imagenes/05-adaptador-wan-nat.png)
 
 
@@ -107,12 +112,14 @@ El primer adaptador utilizado para la conexión WAN fue configurado en modo NAT.
 
 Aquí iniciamos nuestra máquina virtual con OPNsense.
 
+
 ![Adaptadores de OPNsense](../imagenes/06-adaptadores-opnsense.png)
 
 
 ### Configuración final de los adaptadores
 
 El primer adaptador se configuró como LAN en VMnet2 y el segundo como WAN en modo NAT. Es importante mantener este orden.
+
 
 ![Adaptadores configurados](../imagenes/07-adaptadores-configurados-opnsense.png)
 
@@ -125,12 +132,14 @@ Usuario: root
 
 Contraseña: opnsense
 
+
 ![Arranque Live de OPNsense](../imagenes/08-arranque-live-opnsense.png)
 
 
 ### Selección del teclado
 
 Durante la instalación mantuve el mapa de teclado predeterminado.
+
 
 ![Selección del teclado](../imagenes/09-seleccion-teclado-opnsense.png)
 
@@ -139,12 +148,14 @@ Durante la instalación mantuve el mapa de teclado predeterminado.
 
 Se seleccionó ZFS como sistema de archivos para la instalación.
 
+
 ![Instalación ZFS](../imagenes/10-instalacion-zfs-opnsense.png)
 
 
 ### Tipo de disco
 
 Se seleccionó stripe como disco virtual.
+
 
 ![Tipo de disco](../imagenes/11-tipo-de-disco-opnsense.png)
 
@@ -153,12 +164,14 @@ Se seleccionó stripe como disco virtual.
 
 Aquí, con la tecla Espacio, seleccionamos el disco virtual da0, creado exclusivamente para OPNsense.
 
+
 ![Selección del disco](../imagenes/12-seleccion-disco-opnsense.png)
 
 
 ### Progreso de la instalación
 
 Aqui el instalador esta clonando el sistema y preparando el disco virtual de destino.
+
 
 ![Progreso de la instalación](../imagenes/13-progreso-instalacion-opnsense.png)
 
@@ -167,12 +180,14 @@ Aqui el instalador esta clonando el sistema y preparando el disco virtual de des
 
 Al finalizar la instalación configure una contraseña para la cuenta `root`.
 
+
 ![Configuración de la contraseña root](../imagenes/14-cambio-de-password-opnsense.png)
 
 
 ### Reinicio del sistema
 
 Después de completar la instalación se seleccionó la opción para reiniciar OPNsense.
+
 
 ![Reinicio de OPNsense](../imagenes/15-reinicio-opnsense.png)
 
@@ -181,12 +196,14 @@ Después de completar la instalación se seleccionó la opción para reiniciar O
 
 Se desconectó la unidad CD/DVD y se deshabilitó la opción `Connect at power on` para evitar que la máquina iniciara nuevamente desde el instalador.
 
+
 ![Desconexión de la imagen ISO](../imagenes/16-desconectar-iso-opnsense.png)
 
 
 ### Primer inicio desde el disco
 
 OPNsense inició correctamente desde el disco virtual y mostró las interfaces LAN y WAN en la consola.
+
 
 ![Consola de OPNsense instalada](../imagenes/17-consola-opnsense-instalada.png)
 
@@ -196,30 +213,36 @@ OPNsense inició correctamente desde el disco virtual y mostró las interfaces L
 
 ### Seleccionamos la opcion 2 Set interface IP address
 
+
 ![Menú principal de la consola de OPNsense](../imagenes/18-opnsense-menu-principal-consola.png)
 
 
 ### Selección de la interfaz LAN
+
 
 ![Selección de la interfaz LAN](../imagenes/19-opnsense-seleccionar-interfaz-lan.png)
 
 
 ### Configuración de IPv4 en la LAN
 
+
 ![Configuración IPv4 de la interfaz LAN](../imagenes/20-opnsense-configurar-ipv4-lan.png)
 
 
 ### Asignación de la dirección IP
+
 
 ![Asignación de la dirección IP LAN](../imagenes/21-opnsense-asignar-direccion-ip-lan.png)
 
 
 ### Configuración de la máscara de red
 
+
 ![Configuración de la máscara LAN](../imagenes/22-opnsense-configurar-mascara-lan.png)
 
 
 ### Configuración de IPv6 (no configuramos nada)
+
 
 ![Configuración IPv6 de la LAN](../imagenes/23-opnsense-configurar-ipv6-lan.png)
 
@@ -228,20 +251,24 @@ OPNsense inició correctamente desde el disco virtual y mostró las interfaces L
 
 ### Habilitación del servidor DHCP
 
+
 ![Habilitación del servidor DHCP](../imagenes/24-opnsense-habilitar-servidor-dhcp.png)
 
 
 ### Configuración del rango DHCP
+
 
 ![Configuración LAN completada](../imagenes/27-opnsense-configuracion-lan-completada.png)
 
 
 ### Aqui ya tenemos nuestro direccion web
 
+
 ![Inicio de sesión en OPNsense](../imagenes/28-opnsense-inicio-sesion-web.png)
 
 
 ### Inicio de sesión web 
+
 
 ![Asistente de configuración inicial](../imagenes/29-opnsense-asistente-configuracion-inicial.png)
 
@@ -250,20 +277,24 @@ OPNsense inició correctamente desde el disco virtual y mostró las interfaces L
 
 ### Acceso a los ajustes generales
 
+
 ![Acceso a los ajustes generales](../imagenes/30-opnsense-acceder-ajustes-generales.png)
 
 
 ### Configuración general del sistema
+
 
 ![Configuración general de OPNsense](../imagenes/32-opnsense-configuracion-general-sistema.png)
 
 
 ### Configuración de servidores DNS
 
+
 ![Configuración de servidores DNS](../imagenes/31-opnsense-configurar-servidores-dns.png)
 
 
 ### Aplicación de los cambios
+
 
 ![Cambios generales aplicados](../imagenes/33-opnsense-cambios-generales-aplicados.png)
 
@@ -271,6 +302,7 @@ OPNsense inició correctamente desde el disco virtual y mostró las interfaces L
 ## Preparación del IDS/IPS
 
 ### Acceso a detección de intrusiones
+
 
 ![Acceso a detección de intrusiones](../imagenes/34-opnsense-acceder-deteccion-intrusiones.png)
 
@@ -284,12 +316,14 @@ Antes de continuar con la configuración del IDS/IPS, se verificó el estado del
 
 Se comprobó la versión instalada, el estado de la puerta de enlace WAN y los servicios principales antes de iniciar la actualización.
 
+
 ![Panel de OPNsense antes de actualizar](../imagenes/35-panel-opnsense-antes-de-actualizar.png)
 
 
 ### Notas de la nueva versión
 
 OPNsense mostró las notas correspondientes a la versión `26.1.11`, incluyendo correcciones de seguridad, mejoras del sistema y cambios en diferentes componentes.
+
 
 ![Notas de la versión OPNsense 26.1.11](../imagenes/36-notas-version-opnsense-26-1-11.png)
 
@@ -298,12 +332,14 @@ OPNsense mostró las notas correspondientes a la versión `26.1.11`, incluyendo 
 
 Antes de instalar las actualizaciones se creó un snapshot de la máquina virtual para poder restaurar el sistema en caso de que ocurriera algún problema.
 
+
 ![Snapshot antes de actualizar OPNsense](../imagenes/37-snapshot-antes-de-actualizar-opnsense.png)
 
 
 ### Actualizaciones disponibles
 
 El sistema detectó múltiples paquetes pendientes de actualización. La actualización incluía componentes del sistema, librerías, servicios DNS y Suricata.
+
 
 ![Lista de actualizaciones disponibles](../imagenes/38-lista-de-actualizaciones-disponibles.png)
 
@@ -312,12 +348,14 @@ El sistema detectó múltiples paquetes pendientes de actualización. La actuali
 
 OPNsense indicó que la actualización requería un reinicio del firewall para completar la instalación.
 
+
 ![Confirmación de reinicio por actualización](../imagenes/39-confirmacion-de-reinicio-por-actualizacion.png)
 
 
 ### Descarga e instalación
 
 Se inició la descarga e instalación automática de los paquetes disponibles.
+
 
 ![Descarga e instalación de actualizaciones](../imagenes/40-descarga-e-instalacion-de-actualizaciones.png)
 
@@ -326,12 +364,14 @@ Se inició la descarga e instalación automática de los paquetes disponibles.
 
 Después de completar la instalación de los paquetes, OPNsense reinició automáticamente para aplicar la nueva versión.
 
+
 ![Reinicio para finalizar actualización](../imagenes/41-reinicio-para-finalizar-actualizacion.png)
 
 
 ### Inicio de sesión posterior
 
 Después del reinicio se accedió nuevamente a la interfaz web con la cuenta administrativa.
+
 
 ![Inicio de sesión después de actualizar](../imagenes/42-inicio-de-sesion-despues-de-actualizar.png)
 
@@ -345,6 +385,7 @@ OPNsense 26.1.11_6
 ```
 
 También se verificó que la puerta de enlace WAN continuara activa y que los servicios principales estuvieran funcionando correctamente.
+
 
 ![Panel de OPNsense actualizado](../imagenes/43-panel-opnsense-actualizado.png)
 
