@@ -51,28 +51,17 @@ Posteriormente se instalará Suricata para proporcionar funciones de IDS/IPS.
 
 ### Adaptador WAN
 
-Configurado en modo NAT para proporcionar acceso a Internet.
+El adaptador WAN fue configurado en modo NAT para proporcionar acceso a Internet mediante la red virtual de VMware.
+
+La dirección IP es asignada automáticamente por DHCP.
 
 ### Adaptador LAN
 
-Configurado en una red interna exclusiva para las máquinas virtuales del laboratorio.
-
-Nombre de la red interna:
+El adaptador LAN fue conectado a la red virtual `VMnet2`, configurada como una red Host-only exclusiva para las máquinas virtuales del laboratorio.
 
 ```text
-VMnet2
-```
-
-## Instalación
-
-La instalación será documentada paso por paso a medida que se configure la máquina virtual.
-
-## Direccionamiento IP
-
-| Interfaz | Dirección IP |
-|---|---|
-| WAN | DHCP |
-| LAN | Pendiente |
+Red interna: VMnet2
+Subred: 192.168.126.0/24
 
 ## Evidencias
 
