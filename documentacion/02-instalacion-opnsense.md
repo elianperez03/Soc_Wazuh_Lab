@@ -393,14 +393,3 @@ OPNsense 26.1.11_6
 - [ ] Los equipos de la red LAN tienen acceso a Internet.
 - [ ] Es posible acceder al panel web de OPNsense.
 
-## Problemas encontrados
-
-En esta sección se documentarán los errores presentados durante la instalación.
-
-## Soluciones aplicadas
-
-En esta sección se registrarán las soluciones utilizadas.
-
-## Resultado
-
-Pendiente hasta completar la instalación y las pruebas.
