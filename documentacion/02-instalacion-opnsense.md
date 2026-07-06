@@ -287,11 +287,8 @@ OPNsense inició correctamente desde el disco virtual y mostró las interfaces L
 ![Configuración de servidores DNS](../imagenes/31-opnsense-configurar-servidores-dns.png)
 
 
-### Aplicación de los cambios
 
-![Cambios generales aplicados](../imagenes/32-opnsense-configuracion-general-sistema.png)
-
-### Aplicación de los cambios
+### Configuracion de servidores DNS y Dominio
 
 
 ![Cambios generales aplicados](../imagenes/33-opnsense-cambios-generales-aplicados.png)
