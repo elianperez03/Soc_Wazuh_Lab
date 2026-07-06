@@ -236,31 +236,31 @@ OPNsense inició correctamente desde el disco virtual y mostró las interfaces L
 ![Configuración LAN completada](../imagenes/27-opnsense-configuracion-lan-completada.png)
 
 
-### Inicio de sesión web
+### Aqui ya tenemos nuestro direccion web
 
 ![Inicio de sesión en OPNsense](../imagenes/28-opnsense-inicio-sesion-web.png)
 
 
-### Asistente de configuración inicial
+### Inicio de sesión web 
 
 ![Asistente de configuración inicial](../imagenes/29-opnsense-asistente-configuracion-inicial.png)
 
 
-## Configuración general
+## Asistente de configuración inicial
 
 ### Acceso a los ajustes generales
 
 ![Acceso a los ajustes generales](../imagenes/30-opnsense-acceder-ajustes-generales.png)
 
 
-### Configuración de servidores DNS
-
-![Configuración de servidores DNS](../imagenes/31-opnsense-configurar-servidores-dns.png)
-
-
 ### Configuración general del sistema
 
 ![Configuración general de OPNsense](../imagenes/32-opnsense-configuracion-general-sistema.png)
+
+
+### Configuración de servidores DNS
+
+![Configuración de servidores DNS](../imagenes/31-opnsense-configurar-servidores-dns.png)
 
 
 ### Aplicación de los cambios
