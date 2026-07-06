@@ -98,21 +98,21 @@ El primer adaptador utilizado para la conexión WAN fue configurado en modo NAT.
 
 ![Adaptador WAN en modo NAT](../imagenes/05-adaptador-wan-nat.png)
 
-### Adaptadores de red
+### inicio de opnsense
 
-Se agregaron dos adaptadores de red a la máquina virtual.
+Aquí iniciamos nuestra máquina virtual con OPNsense.
 
 ![Adaptadores de OPNsense](../imagenes/06-adaptadores-opnsense.png)
 
 ### Configuración final de los adaptadores
 
-El adaptador LAN fue conectado a VMnet2 y el adaptador WAN fue conectado a la red NAT de VMware.
+El primer adaptador se configuró como LAN en VMnet2 y el segundo como WAN en modo NAT. Es importante mantener este orden.
 
 ![Adaptadores configurados](../imagenes/07-adaptadores-configurados-opnsense.png)
 
 ### Arranque en modo Live
 
-OPNsense inició desde la imagen ISO y detectó las interfaces LAN y WAN.
+Una vez OPNsense inició y detectó las interfaces LAN y WAN nos logueamos (Usuario: root, Contraseña: opnsense).
 
 ![Arranque Live de OPNsense](../imagenes/08-arranque-live-opnsense.png)
 
