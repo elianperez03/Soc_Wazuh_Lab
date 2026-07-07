@@ -525,4 +525,3 @@ Además, la instalación de las reglas de `abuse.ch` y `ET open` amplió la capa
 
 Con esta configuración, OPNsense y Suricata proporcionan una capa adicional de detección y prevención para proteger las máquinas virtuales que forman parte del laboratorio SOC.
 
-> **Nota:** Antes de convertir grandes cantidades de reglas de `Alert` a `Drop`, es recomendable supervisar las alertas generadas para identificar posibles falsos positivos y evitar el bloqueo de tráfico legítimo.
