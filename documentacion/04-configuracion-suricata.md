@@ -350,29 +350,7 @@ Estas reglas amplían la capacidad de detección de Suricata frente a ataques, m
 
 ---
 
-## 21. Archivo de configuración de Suricata en GitHub
-
-Se verificó la existencia del archivo:
-
-```text
-documentacion/04-configuracion-suricata.md
-```
-
-Este archivo se utiliza para documentar todo el proceso de configuración de Suricata como IDS/IPS dentro del laboratorio SOC.
-
-![Archivo de configuración de Suricata creado en GitHub](../imagenes/91-archivo-configuracion-suricata-creado-github.png)
-
----
-
-## 22. Edición del archivo de documentación
-
-Se abrió el archivo `04-configuracion-suricata.md` en el editor de GitHub para agregar la documentación correspondiente a la instalación, configuración y pruebas realizadas con Suricata.
-
-![Edición del archivo de configuración de Suricata en GitHub](../imagenes/92-edicion-archivo-configuracion-suricata-github.png)
-
----
-
-## 23. Revisión inicial de las reglas ET Open
+## 22. Revisión inicial de las reglas ET Open
 
 Se accedió a la siguiente ruta:
 
@@ -394,7 +372,7 @@ Esto indicaba que todavía no habían sido descargadas ni activadas en el sistem
 
 ---
 
-## 24. Revisión de categorías de ataques y malware
+## 23. Revisión de categorías de ataques y malware
 
 Se continuó revisando el listado de reglas disponibles.
 
@@ -413,7 +391,7 @@ Entre las categorías mostradas se encontraban reglas relacionadas con:
 
 ---
 
-## 25. Revisión de reglas de phishing, escaneo y acceso remoto
+## 24. Revisión de reglas de phishing, escaneo y acceso remoto
 
 En la siguiente parte del listado se observaron categorías relacionadas con:
 
@@ -433,7 +411,7 @@ En la siguiente parte del listado se observaron categorías relacionadas con:
 
 ---
 
-## 26. Revisión de reglas para aplicaciones web
+## 25. Revisión de reglas para aplicaciones web
 
 En la parte final del listado se observaron reglas relacionadas con:
 
@@ -450,7 +428,7 @@ En la parte final del listado se observaron reglas relacionadas con:
 
 ---
 
-## 27. Selección y descarga de reglas ET Open
+## 26. Selección y descarga de reglas ET Open
 
 Para ampliar la cobertura de detección de Suricata, se seleccionaron y habilitaron los siguientes conjuntos de reglas:
 
@@ -481,7 +459,7 @@ Una vez finalizada la descarga, las categorías habilitadas mostraron una fecha 
 
 ---
 
-## 28. Verificación de las reglas ET Open instaladas
+## 27. Verificación de las reglas ET Open instaladas
 
 Se accedió a la pestaña:
 
