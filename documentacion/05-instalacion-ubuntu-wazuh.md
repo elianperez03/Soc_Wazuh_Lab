@@ -1,4 +1,4 @@
-# Instalación de Ubuntu Server para Wazuh
+# Configuración de Ubuntu Server para Wazuh
 
 ## Estado
 
@@ -25,10 +25,10 @@ La máquina estará conectada a la red LAN administrada por OPNsense, de manera 
 | Hipervisor | VMware Workstation |
 | Sistema operativo | Ubuntu Server |
 | Tipo de instalación | Custom (Advanced) |
-| Procesadores | 1 |
-| Núcleos | 4 |
+| Procesadores | 2 |
+| Núcleos | 2 |
 | Memoria RAM | 8 GB |
-| Disco | 80 GB |
+| Disco | 65 GB |
 | Tipo de disco | SCSI |
 | Adaptador de red | VMnet2 |
 | Dirección IP inicial | DHCP |
