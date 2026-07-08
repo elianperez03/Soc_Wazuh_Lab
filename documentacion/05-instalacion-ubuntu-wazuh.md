@@ -113,8 +113,8 @@ La máquina fue almacenada dentro de la carpeta correspondiente al laboratorio S
 La máquina virtual fue configurada con cuatro núcleos virtuales.
 
 ```text
-Number of processors: 1
-Number of cores per processor: 4
+Number of processors: 2
+Number of cores per processor: 2
 Total processor cores: 4
 ```
 
@@ -183,7 +183,7 @@ SCSI
 Con una capacidad de:
 
 ```text
-80 GB
+65 GB
 ```
 
 El disco será utilizado para almacenar:
@@ -205,7 +205,7 @@ Antes de finalizar, se verificó que la configuración de la máquina virtual fu
 ```text
 CPU: 4 núcleos
 RAM: 8 GB
-Disco: 80 GB
+Disco: 65 GB
 Red: VMnet2
 Sistema: Ubuntu Server 64-bit
 ```
@@ -242,20 +242,7 @@ Se mantuvo el idioma inglés porque facilita el seguimiento de la documentación
 
 ---
 
-## 14. Configuración del teclado
-
-Se configuró la distribución del teclado correspondiente al equipo utilizado.
-
-```text
-Layout: Spanish
-Variant: Spanish
-```
-
-![Configuración del teclado en Ubuntu Server](../imagenes/112-configuracion-teclado-ubuntu-server.png)
-
----
-
-## 15. Tipo de instalación
+## 14. Tipo de instalación
 
 Se seleccionó la instalación estándar de Ubuntu Server.
 
@@ -340,9 +327,9 @@ Se configuraron los datos principales del servidor.
 Ejemplo:
 
 ```text
-Your name: Administrador SOC
-Your server's name: wazuh-server
-Username: wazuhadmin
+Your name: ubuntu
+Your server's name: ubuntu
+Username: ubuntu
 Password: contraseña segura
 ```
 
