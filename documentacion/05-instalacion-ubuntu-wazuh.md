@@ -185,21 +185,6 @@ La opción:
 
 indica que todos los componentes principales de Wazuh serán instalados en el mismo servidor.
 
-Durante la instalación, el asistente realizó automáticamente las siguientes acciones:
-
-1. Verificó los requisitos del sistema.
-2. Instaló las dependencias necesarias.
-3. Añadió el repositorio oficial de Wazuh.
-4. Generó los archivos de configuración.
-5. Creó los certificados de seguridad.
-6. Instaló Wazuh Indexer.
-7. Instaló Wazuh Manager.
-8. Instaló y configuró Filebeat.
-9. Instaló Wazuh Dashboard.
-10. Generó las credenciales administrativas.
-11. Inició los servicios de Wazuh.
-
----
 
 # 5. Finalización de la instalación de Wazuh
 
@@ -207,14 +192,7 @@ Después de completar todos los procesos, el instalador mostró un resumen indic
 
 ![Finalización de la instalación de Wazuh](../imagenes/102-instalacion-completada-de-wazuh.png)
 
-En esta imagen se puede observar que los siguientes componentes fueron instalados e iniciados correctamente:
-
-- Wazuh Indexer.
-- Wazuh Manager.
-- Filebeat.
-- Wazuh Dashboard.
-
-También se muestra la dirección de acceso a la interfaz web:
+En esta imagen muestra la dirección de acceso a la interfaz web:
 
 ```text
 https://<wazuh-dashboard-ip>:443
@@ -225,8 +203,6 @@ El instalador generó las credenciales del usuario:
 ```text
 admin
 ```
-
-> La contraseña generada durante la instalación no debe publicarse en GitHub. Antes de subir esta imagen al repositorio, la contraseña debe ocultarse, recortarse o cubrirse.
 
 La instalación fue finalizada con el mensaje:
 
@@ -453,8 +429,6 @@ Finalmente, se configuraron dos servidores DNS:
 192.168.126.254
 1.1.1.1
 ```
-
-La indentación del archivo YAML debe realizarse utilizando espacios. No se deben utilizar tabulaciones.
 
 Para guardar el archivo en Nano se utilizó:
 
