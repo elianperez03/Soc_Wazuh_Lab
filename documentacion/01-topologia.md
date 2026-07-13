@@ -104,10 +104,10 @@ flowchart TD
 - [x] Configuración del servidor DHCP.
 - [x] Acceso al panel web de OPNsense.
 - [x] Actualización de OPNsense.
-- [ ] Configuración completa del firewall y NAT.
-- [ ] Configuración de Suricata.
-- [ ] Instalación de Ubuntu Server con Wazuh.
-- [ ] Instalación de Windows Server.
-- [ ] Instalación de Windows 10.
-- [ ] Instalación de Kali Linux.
-- [ ] Integración de los endpoints con Wazuh.
+- [x] Configuración completa del firewall y NAT.
+- [x] Configuración de Suricata.
+- [x] Instalación de Ubuntu Server con Wazuh.
+- [x] Instalación de Windows Server.
+- [x] Instalación de Windows 10.
+- [x] Instalación de Kali Linux.
+- [x] Integración de los endpoints con Wazuh.
