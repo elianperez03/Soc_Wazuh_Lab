@@ -46,7 +46,6 @@ Esto permite que Kali forme parte de la red LAN protegida por OPNsense.
 
 > No se debe utilizar un adaptador NAT adicional, porque el tráfico podría salir directamente a Internet sin pasar por OPNsense y Suricata.
 
-![Configuración de la máquina virtual de Kali Linux](../imagenes/160-configuracion-maquina-virtual-kali.png)
 
 ---
 
@@ -74,7 +73,6 @@ Connected
 Connect at power on
 ```
 
-![Adaptador de red de Kali conectado a VMnet2](../imagenes/161-adaptador-red-kali-vmnet2.png)
 
 ---
 
@@ -125,8 +123,6 @@ Kali debe recibir automáticamente una dirección dentro del rango DHCP configur
 192.168.126.100-192.168.126.200
 ```
 
-![Dirección IP asignada a Kali Linux](../imagenes/162-direccion-ip-kali-linux.png)
-
 ---
 
 # 5. Verificación de la ruta predeterminada
@@ -151,7 +147,6 @@ También debe aparecer la red local:
 192.168.126.0/24
 ```
 
-![Puerta de enlace de Kali Linux](../imagenes/163-puerta-enlace-kali-linux.png)
 
 ---
 
@@ -189,7 +184,6 @@ ping -c 4 192.168.126.254
 
 Una respuesta correcta confirma que Kali puede comunicarse con la interfaz LAN de OPNsense.
 
-![Prueba de conectividad entre Kali y OPNsense](../imagenes/164-ping-kali-opnsense.png)
 
 ---
 
@@ -261,7 +255,6 @@ ping -c 4 1.1.1.1
 
 La respuesta confirmó que Kali podía acceder a Internet utilizando a OPNsense como puerta de enlace.
 
-![Prueba de acceso a Internet desde Kali Linux](../imagenes/165-ping-internet-kali-linux.png)
 
 Para comprobar también la resolución DNS se puede ejecutar:
 
@@ -301,7 +294,6 @@ Finalmente se eliminaron paquetes innecesarios:
 sudo apt autoremove -y
 ```
 
-![Actualización de Kali Linux](../imagenes/166-actualizacion-kali-linux.png)
 
 ---
 
@@ -350,7 +342,6 @@ Entre los equipos esperados se encuentran:
 192.168.126.254    OPNsense
 ```
 
-![Descubrimiento de equipos desde Kali Linux](../imagenes/167-descubrimiento-equipos-kali.png)
 
 ---
 
