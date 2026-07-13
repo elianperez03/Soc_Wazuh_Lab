@@ -2,7 +2,7 @@
 
 ## Estado
 
-> Configuración base completada. Configuración de Suricata pendiente.
+> Configuración base completada. Configuración de Suricata completada.
 
 ## Objetivo
 
